@@ -15,6 +15,6 @@ exports.sequelize = new sequelize_typescript_1.Sequelize({
             require: true,
             rejectUnauthorized: false
         }
-    },
+    }
 });
 //# sourceMappingURL=sequelize.js.map

@@ -1,7 +1,6 @@
 branch-defaults:
   default:
     environment: udagram-test-env
-    group_suffix: null
 environment-defaults:
   udagram-test-env:
     branch: null
