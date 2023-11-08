@@ -1,10 +1,14 @@
 branch-defaults:
   default:
-    environment: udagram-dev-env
+    environment: udagram-test-env
+    group_suffix: null
+environment-defaults:
+  udagram-test-env:
+    branch: null
+    repository: null
 global:
-  application_name: udagram-dev
+  application_name: udagram-test
   branch: null
-  repository: null
   default_ec2_keyname: null
   default_platform: Node.js 18
   default_region: us-east-1
@@ -13,5 +17,6 @@ global:
   platform_name: null
   platform_version: null
   profile: null
+  repository: null
   sc: null
   workspace_type: Application
